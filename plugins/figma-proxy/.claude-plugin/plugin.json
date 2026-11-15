@@ -1,8 +1,8 @@
 {
   "name": "figma-proxy",
   "displayName": "Figma Proxy",
-  "version": "1.1.0",
-  "description": "Read-only Figma MCP server (figma-proxy-mcp): tokenized design IR with CSS variables and a Tailwind theme, PNG/SVG export, and verify_render visual diff. Includes a basics skill.",
+  "version": "1.2.0",
+  "description": "Skill for the free figma-proxy-mcp server: one-command setup, then Figma frames to tokenized IR, Tailwind theme, PNG/SVG renders and verify_render visual diff.",
   "author": {
     "name": "Vladyslav Humeniuk",
     "url": "https://ai-upgrade.online"
@@ -19,15 +19,6 @@
     "visual-regression",
     "react"
   ],
-  "userConfig": {
-    "figma_api_key": {
-      "type": "string",
-      "title": "Figma personal access token",
-      "description": "Figma personal access token with the scope File content: Read-only. Create it in Figma: Settings > Security > Personal access tokens.",
-      "required": true,
-      "sensitive": true
-    }
-  },
   "privacyPolicyUrl": "https://github.com/Semmargl/harness-plugins/blob/main/PRIVACY.md",
   "supportUrl": "https://github.com/Semmargl/harness-plugins/issues",
   "documentationUrl": "https://github.com/Semmargl/harness-plugins/blob/main/plugins/figma-proxy/README.md"

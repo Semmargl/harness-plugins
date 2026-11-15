@@ -22,13 +22,13 @@ From a shell: `claude plugin marketplace add Semmargl/harness-plugins`, then
 
 - Claude Code with plugin support.
 - `figma-proxy`: Node.js 20+, a Figma personal access token (scope **File content:
-  Read-only**; the plugin asks for it on enable and stores it in secure storage), and
+  Read-only**; passed to the MCP server via `claude mcp add ... -e FIGMA_API_KEY=...`), and
   for `verify_render` only, `npx playwright install chromium` once.
 - `handoff-resume`: Python 3.8+ (standard library only).
 
 ## Security notes
 
-- **figma-proxy**: runs `npx -y figma-proxy-mcp@1.1.0 --stdio` (pinned version,
+- **figma-proxy**: the skill guides you to connect `npx -y figma-proxy-mcp@1.1.0 --stdio` yourself (pinned version,
   downloaded from the npm registry). The MCP server contacts only `api.figma.com` and
   Figma's image CDN (signed URLs for PNG/SVG downloads, no token sent). Read-only toward
   Figma, no telemetry. Details in the server's

@@ -21,9 +21,11 @@ skill (`figma-proxy-basics`) that tells Claude which tool to use when.
 /plugin install figma-proxy@harness-plugins
 ```
 
-When you enable the plugin, Claude Code asks for your **Figma personal access token**
-and keeps it in secure storage (it is a `sensitive` user config value, not written to
-`settings.json`).
+The plugin ships the skill; connect the free MCP server once (the skill will remind you if it is missing):
+
+```bash
+claude mcp add figma-proxy -e FIGMA_API_KEY=<token> -- npx -y figma-proxy-mcp@1.1.0 --stdio
+```
 
 Create the token in Figma: Settings -> Security -> Personal access tokens -> Generate new
 token, scope **File content: Read-only**, with an expiry date.

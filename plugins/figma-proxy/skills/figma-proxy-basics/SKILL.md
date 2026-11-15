@@ -12,6 +12,21 @@ description: >-
 The `figma-proxy` MCP server exposes 9 read-only tools. It never modifies Figma files.
 This guide covers which tool to call when, and how to fix setup problems.
 
+## 0. Setup (once)
+
+This skill drives the free, open-source MCP server `figma-proxy-mcp` (MIT, npm). If tools like `get_figma_component`, `render_node_png` or `verify_render` are not available in this session, the server is not connected yet. Tell the user to run:
+
+```bash
+# Claude Code
+claude mcp add figma-proxy -e FIGMA_API_KEY=<token> -- npx -y figma-proxy-mcp@1.1.0 --stdio
+```
+
+Other clients (Cursor, Claude Desktop): add an MCP server with command `npx`, args `["-y","figma-proxy-mcp@1.1.0","--stdio"]` and env `FIGMA_API_KEY`.
+
+- Token: Figma → Settings → Security → Personal access tokens, scope **File content: Read-only**. Never paste the token into chat or files; pass it only via the client's env setting.
+- Check the setup: `npx -y figma-proxy-mcp@1.1.0 --check` (prints OK/FAIL, never the token).
+- Network: the server talks only to `api.figma.com` and Figma's image CDN. Source: https://github.com/Semmargl/figma-proxy-mcp
+
 ## 1. Links need a node-id
 
 `get_figma_component`, `render_node_png` and `verify_render` need a link to a node, not
