@@ -1,0 +1,20 @@
+{
+  "name": "harness-plugins",
+  "description": "Free Claude Code plugins from Vladyslav Humeniuk: a read-only Figma MCP server and a session handoff skill.",
+  "owner": {
+    "name": "Vladyslav Humeniuk",
+    "url": "https://ai-upgrade.online"
+  },
+  "plugins": [
+    {
+      "name": "figma-proxy",
+      "source": "./plugins/figma-proxy",
+      "description": "Read-only Figma MCP server (figma-proxy-mcp): tokenized design IR, Tailwind theme, PNG/SVG export and a visual diff check, plus a basics skill."
+    },
+    {
+      "name": "context-handoff",
+      "source": "./plugins/context-handoff",
+      "description": "End a long session with a compact handoff and resume it cheaply in a fresh chat."
+    }
+  ]
+}

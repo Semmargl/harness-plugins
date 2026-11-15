@@ -1,0 +1,14 @@
+{
+  "name": "context-handoff",
+  "displayName": "Context Handoff",
+  "version": "1.0.0",
+  "description": "End a long AI coding session with a compact, structured handoff and resume it in a fresh chat from about 1-2k tokens. CREATE and RESUME modes, local files only.",
+  "author": {
+    "name": "Vladyslav Humeniuk",
+    "url": "https://ai-upgrade.online"
+  },
+  "homepage": "https://github.com/Semmargl/harness-plugins/tree/main/plugins/context-handoff",
+  "repository": "https://github.com/Semmargl/harness-plugins",
+  "license": "MIT",
+  "keywords": ["handoff", "session", "context", "tokens", "productivity", "workflow"]
+}

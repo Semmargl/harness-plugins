@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "figma-proxy": {
+      "command": "npx",
+      "args": ["-y", "figma-proxy-mcp@1.1.0", "--stdio"],
+      "env": {
+        "FIGMA_API_KEY": "${user_config.figma_api_key}"
+      }
+    }
+  }
+}
