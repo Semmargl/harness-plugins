@@ -9,7 +9,7 @@ These plugins run entirely on your own machine inside your AI agent. The author 
 - Your Figma personal access token is stored by your agent as a sensitive plugin setting and is sent only to Figma (`api.figma.com` and Figma's image CDN) to read the files you point it at. Use a read-only token.
 - Cached components, SVGs and render/diff images are written to your OS temp folder (configurable). Nothing is sent anywhere else. No telemetry.
 
-## context-handoff
+## handoff-resume (Context Handoff & Resume)
 - No network access. Writes handoff files only to `.handoff/` in your project (configurable).
 - The skill instructs the agent to redact secrets before writing, and ships a local secret scan.
 

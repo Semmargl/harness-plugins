@@ -1,4 +1,4 @@
-# context-handoff
+# handoff-resume (Context Handoff & Resume)
 
 Claude Code plugin with one skill, `context-handoff`, that ends a long AI coding session
 cleanly and lets you continue it cheaply in a fresh chat.
@@ -19,7 +19,7 @@ expired context cache.
 
 ```
 /plugin marketplace add Semmargl/harness-plugins
-/plugin install context-handoff@harness-plugins
+/plugin install handoff-resume@harness-plugins
 ```
 
 ## Requirements

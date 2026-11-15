@@ -12,8 +12,8 @@
       "description": "Read-only Figma MCP server (figma-proxy-mcp): tokenized design IR, Tailwind theme, PNG/SVG export and a visual diff check, plus a basics skill."
     },
     {
-      "name": "context-handoff",
-      "source": "./plugins/context-handoff",
+      "name": "handoff-resume",
+      "source": "./plugins/handoff-resume",
       "description": "End a long session with a compact handoff and resume it cheaply in a fresh chat."
     }
   ]
