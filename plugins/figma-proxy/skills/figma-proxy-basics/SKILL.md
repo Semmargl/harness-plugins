@@ -80,9 +80,9 @@ verify_render {htmlPath: "/abs/path/page.html", frameWidth: 1440, figmaUrl, scal
 ## 6. Setup and troubleshooting
 
 - **Token.** Figma -> Settings -> Security -> Personal access tokens -> Generate new
-  token. Scope: **File content: Read-only** is enough. Set an expiry date. The plugin
-  asks for the token when it is enabled and stores it in secure storage. Never paste a
-  token into chat or commit it to a file.
+  token. Scope: **File content: Read-only** is enough. Set an expiry date. Pass it only via
+  the MCP client's env setting (see Setup). Never paste a token into chat or commit it
+  to a file.
 - **Doctor.** Run `npx -y figma-proxy-mcp@1.1.0 --check` in a terminal with
   `FIGMA_API_KEY` set. It checks Node, the token (never printed), Figma API access and
   Chromium.
