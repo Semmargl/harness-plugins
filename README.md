@@ -47,3 +47,7 @@ Want the full gated Figma → React workflow with fix loops and fidelity thresho
 ## License
 
 MIT. See [LICENSE](./LICENSE).
+
+## Privacy
+
+No data is collected by the author. See [PRIVACY.md](PRIVACY.md).
