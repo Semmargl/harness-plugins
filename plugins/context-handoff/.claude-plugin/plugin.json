@@ -10,5 +10,15 @@
   "homepage": "https://github.com/Semmargl/harness-plugins/tree/main/plugins/context-handoff",
   "repository": "https://github.com/Semmargl/harness-plugins",
   "license": "MIT",
-  "keywords": ["handoff", "session", "context", "tokens", "productivity", "workflow"]
+  "keywords": [
+    "handoff",
+    "session",
+    "context",
+    "tokens",
+    "productivity",
+    "workflow"
+  ],
+  "privacyPolicyUrl": "https://github.com/Semmargl/harness-plugins/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/Semmargl/harness-plugins/issues",
+  "documentationUrl": "https://github.com/Semmargl/harness-plugins/blob/main/plugins/context-handoff/README.md"
 }

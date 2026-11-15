@@ -10,7 +10,15 @@
   "homepage": "https://github.com/Semmargl/figma-proxy-mcp",
   "repository": "https://github.com/Semmargl/harness-plugins",
   "license": "MIT",
-  "keywords": ["figma", "mcp", "figma-to-code", "design-to-code", "tailwind", "visual-regression", "react"],
+  "keywords": [
+    "figma",
+    "mcp",
+    "figma-to-code",
+    "design-to-code",
+    "tailwind",
+    "visual-regression",
+    "react"
+  ],
   "userConfig": {
     "figma_api_key": {
       "type": "string",
@@ -19,5 +27,8 @@
       "required": true,
       "sensitive": true
     }
-  }
+  },
+  "privacyPolicyUrl": "https://github.com/Semmargl/harness-plugins/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/Semmargl/harness-plugins/issues",
+  "documentationUrl": "https://github.com/Semmargl/harness-plugins/blob/main/plugins/figma-proxy/README.md"
 }
