@@ -91,4 +91,4 @@ verify_render {htmlPath: "/abs/path/page.html", frameWidth: 1440, figmaUrl, scal
 - **Error mentions playwright or a missing executable.** Run
   `npx playwright install chromium`, then retry.
 
-Want the full gated Figma → React workflow with fix loops and fidelity thresholds? See Figma to React, Verified on Agensi: https://www.agensi.io/creators/vladyslav-humeniuk
+Want the full gated Figma → React workflow with fix loops and fidelity thresholds? See Figma to React, Verified on Agensi: https://www.agensi.io/r/VLADYSLAVHUMENIU?to=/creators/vladyslav-humeniuk&utm_source=github

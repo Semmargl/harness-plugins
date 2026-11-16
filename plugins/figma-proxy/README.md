@@ -52,4 +52,4 @@ token, scope **File content: Read-only**, with an expiry date.
 
 MIT. See [LICENSE](./LICENSE).
 
-Want the full gated Figma → React workflow with fix loops and fidelity thresholds? See Figma to React, Verified on Agensi: https://www.agensi.io/creators/vladyslav-humeniuk
+Want the full gated Figma → React workflow with fix loops and fidelity thresholds? See Figma to React, Verified on Agensi: https://www.agensi.io/r/VLADYSLAVHUMENIU?to=/creators/vladyslav-humeniuk&utm_source=github

@@ -39,10 +39,10 @@ From a shell: `claude plugin marketplace add Semmargl/harness-plugins`, then
 
 ## Links
 
-- More skills: [Agensi profile](https://www.agensi.io/creators/vladyslav-humeniuk)
+- More skills: [Agensi profile](https://www.agensi.io/r/VLADYSLAVHUMENIU?to=/creators/vladyslav-humeniuk&utm_source=github)
 - [ai-upgrade.online](https://ai-upgrade.online): AI-adoption audits for dev teams
 
-Want the full gated Figma → React workflow with fix loops and fidelity thresholds? See Figma to React, Verified on Agensi: https://www.agensi.io/creators/vladyslav-humeniuk
+Want the full gated Figma → React workflow with fix loops and fidelity thresholds? See Figma to React, Verified on Agensi: https://www.agensi.io/r/VLADYSLAVHUMENIU?to=/creators/vladyslav-humeniuk&utm_source=github
 
 ## License
 
